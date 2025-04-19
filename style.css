@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom, blue , orange);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#kk {
+    text-align: center;
+    color: rgb(246, 160, 160);
+    font-family: Arial, sans-serif;
+}
+#pp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 4px solid #7e3434; 
+    display: block;
+    margin: auto;
+    object-fit: cover; 
+}
+#pt{
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    text-align: center;
+    color: white;
+}
+#e {
+    
+}
+
+
+
+
+
+
+
+
+
