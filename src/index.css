@@ -72,6 +72,7 @@ hr {
     h1, h2, h3 {
         font-size: 1.2em;
     }
+    
 }
 
 
@@ -99,15 +100,38 @@ footer {
   color: #aaa;
 }
 
-
-/* .github {
-  width: 40px;
-  height: 40px;         
-  display: inline-block; 
-  border-radius: 50%;   
-  transition: all 0.3s;  /
+.span {
+  padding: 3px;
 }
 
-.github:hover path {
-  fill: red;
-} */
+/*
+
+.header {
+    font-family: 'Segoe UI';
+    background-image: url("assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     text-shadow: 
+    -1px -1px 0 white,  
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+    color: darkblue;
+}*/
+
+.header {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    text-align: center; /* centers the header text */
+    font-weight: 700; /* thicker font weight */
+    text-shadow: 
+        0 0 10px white,   /* glowing effect */
+        0 0 20px #87CEFA, /* soft blue glow */
+        0 0 30px #1E90FF; /* deeper blue glow */
+    color: #0b0b45; /* rich cosmic dark blue */
+}
+
+.rocket {
+    text-shadow: none;
+}
