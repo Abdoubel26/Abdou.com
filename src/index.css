@@ -104,20 +104,6 @@ footer {
   padding: 3px;
 }
 
-/*
-
-.header {
-    font-family: 'Segoe UI';
-    background-image: url("assets/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-     text-shadow: 
-    -1px -1px 0 white,  
-     1px -1px 0 white,
-    -1px  1px 0 white,
-     1px  1px 0 white;
-    color: darkblue;
-}*/
 
 .header {
     font-family: 'Segoe UI', sans-serif;

@@ -5,12 +5,6 @@ function App() {
   
   return (
     <>
-     
-    <header className='header'>
-        <h1>Abdou Belounis <span className='rocket'>🚀</span></h1>
-        <h2>Coder,  Independent learner</h2>
-    </header>
-
     <section className="profile">
       <img src={pic} alt="Profile photo" id="profile-pic" title="Abdou Belounis" />
         <p>Space Exploration Advocate, Indie Hacker</p>
