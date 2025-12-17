@@ -1,9 +1,9 @@
 function Nav() {
     return ( 
     <>
-    <div className="flex flex-row justify-between bg-white lg:text-xl ">
+    <div className="flex flex-row justify-between bg-white lg:text-xl fixed left-0 top-0 w-full z-10">
         <div>
-            <h1 className="p-3 pl-1 font-semibold cursor-default">ABDOU</h1>
+            <h1 className="p-3 pl-2 font-semibold cursor-default">ABDOU</h1>
         </div>
         
         <div className="flex flex-row justify-between p-3">
