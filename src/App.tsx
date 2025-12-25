@@ -7,10 +7,9 @@ function App() {
   
   return (
     <>
-      <Nav/>
+    <Nav/>
     <Hero/>
     <Me/>
-    
     </>
   )
 }
