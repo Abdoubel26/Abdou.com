@@ -1,8 +1,25 @@
+import { useEffect } from 'react';
 import pic from '../assets/propic.jpeg'
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger)
 
 function Me() {
 
+    useEffect(() => {
+        gsap.to(".dashed-ring", {
+      rotate: 360,
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".dashed-ring",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+      },
+      transformOrigin: "50% 50%",
+    });
+  }, [])
 
 
 
@@ -11,21 +28,21 @@ function Me() {
     <div className="flex bg-no-repeat bg-cover bg-center border-b-2 border-dotted border-b-blue-800 max-w-screen w-screen overflow-clip flex-col justify-center items-center animate-dropFade">
     <div className="flex bg-linear-to-tr from-amber-100/20 to-amber-400/20 flex-row justify-center w-full lg:p-10 p-2 pt-10">
         <div className='lg:px-5 px-1'>
-            <div className='rounded-full overflow-hidden lg:h-60 lg:w-60 h-40 w-40 border-3 p-0.5 border-dashed border-amber-800 m-3'>
-                <img src={pic} className=''></img>
+            <div className=' lg:h-60 lg:w-60 h-40 w-40 p-2 lg:p-3 relative  border-amber-800 m-3'>
+                <img src={pic} className='rounded-full overflow-hidden'></img>
                 <svg
-                    className="absolute -left-32 inset-0 w-full h-full rotate-0"
+                    className="absolute inset-0 w-full h-full rotate-0"
                     viewBox="0 0 100 100"
                 >
                     <circle
                     cx="50"
                     cy="50"
-                    r="38"
+                    r="49"
                     fill="none"
                     stroke="red"
                     strokeWidth="3"
                     strokeDasharray="4 10"
-                    className="dotted-ring"
+                    className="dashed-ring"
                     />
                 </svg>
             </div>

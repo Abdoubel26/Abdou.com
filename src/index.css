@@ -126,3 +126,8 @@ button:hover svg {
 .animate-dropFade {
   animation: dropFade 1s ease-out forwards;
 }
+
+
+.dashed-ring {
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.6));
+}
