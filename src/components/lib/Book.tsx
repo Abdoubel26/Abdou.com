@@ -1,5 +1,4 @@
 import { useTexture } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
 import pagesimg from '../../assets/book cover/pages-spine.png'
 
 
