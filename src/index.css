@@ -127,7 +127,6 @@ button:hover svg {
   animation: dropFade 1s ease-out forwards;
 }
 
-
-.dashed-ring {
-  filter: drop-shadow(0 0 6px rgba(255,255,255,0.6));
+.binary-ring {
+  font-family: monospace;
 }
