@@ -26,7 +26,7 @@ function Me() {
 
     return ( 
     <>
-    <div className="flex bg-no-repeat bg-cover bg-center border-b-2 border-dotted border-b-blue-800 max-w-screen w-screen overflow-clip flex-col justify-center items-center animate-dropFade">
+    <div className="flex border-b-2 border-dotted border-b-blue-800 max-w-screen w-screen overflow-clip flex-col justify-center items-center animate-dropFade">
     <div className="flex bg-linear-to-tr from-amber-100/20  to-amber-400/20 flex-row justify-center w-full lg:p-10 p-2 pt-10">
         <div className='lg:px-5 px-1'>
             <div className=' lg:h-60 lg:w-60 h-40 bg-gray-900 rounded-full w-40 p-3 lg:p-4 relative m-3'>

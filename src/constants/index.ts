@@ -63,7 +63,7 @@ export const projects = [
     link: "https://github.com/Abdoubel26/twitter-clone"
   },
   {
-    title: "Virtaulr",
+    title: "Virtualr",
     description: "A concept landing page for a Virtual Reality software company",
     image: VRlogo,
     link: "https://github.com/Abdoubel26/twitter-clone"

@@ -23,8 +23,7 @@ const Reads = () => {
                 trigger: ".books-section",
                 start: "top top",
                 end: "+=150%",
-                scrub: true,
-                markers: true,
+                scrub: 3,
                 },
             });
       }
@@ -32,7 +31,7 @@ const Reads = () => {
 
     useFrame(() => {
                 if (groupRef.current) {
-                    groupRef.current.position.x = -bcovers.length * 2.5 * progress.current
+                    groupRef.current.position.x = -bcovers.length * 2.45 * progress.current
     }})
 
   return (
