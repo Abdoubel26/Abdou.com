@@ -4,8 +4,8 @@ import SkillsScene from "./SkillsScene"
 
 function Skills() {
   return (
-     <div className="flex flex-col items-center w-screen"> 
-            <h1 className="poppins lg:text-7xl text-4xl my-10 font-bold ">Tech Stack</h1>
+     <div className="flex flex-col items-center w-screen "> 
+            <h1 className="poppins lg:text-7xl text-4xl my-10 font-bold underline ">Tech Stack</h1>
         <div className='w-screen h-[200vh] books-section  '>
 
         <div className="sticky top-0 h-screen skills-section">

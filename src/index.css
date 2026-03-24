@@ -6,6 +6,13 @@
   font-family: 'Bungee';
 }
 
+p, span {
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  cursor: default;
+}
 
 .poppins {
   font-family: 'Poppins';

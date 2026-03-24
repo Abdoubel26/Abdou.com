@@ -15,7 +15,7 @@ function Me() {
             trigger: ".binary-ring",
             start: "top bottom",
             end: "bottom top",
-            scrub: true,
+            scrub: 5,
           },
           transformOrigin: "50% 50%",
         });
