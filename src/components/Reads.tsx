@@ -23,7 +23,7 @@ const Reads = () => {
                 trigger: ".books-section",
                 start: "top top",
                 end: "+=150%",
-                scrub: 3,
+                scrub: 6,
                 },
             });
       }
