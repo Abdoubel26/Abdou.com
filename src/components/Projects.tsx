@@ -3,18 +3,18 @@ import Tilt from 'react-parallax-tilt'
 
 function Projects() {
     return ( 
-    <div className="flex flex-col justify-center  max-w-screen   items-center lg:p-4 lg:pb-10 border-b-2 border-blue-600 border-dashed">
-        <h1 className="text-4xl lg:text-7xl font-bold outfit my-5 underline ">Projects</h1>
+    <div className="flex flex-col justify-center  max-w-screen bg-linear-to-b  from-blue-950 to-gray-900   items-center lg:p-4 lg:pb-10 border-b-2 border-blue-600 border-dashed">
+        <h1 className="text-4xl lg:text-7xl font-bold outfit my-5 underline text-white   ">Projects</h1>
         <div className="flex lg:grid lg:grid-cols-3 lg:gap-x-3  w-screen  md:grid md:grid-cols-2 md:gap-x-1 p-2 justify-between flex-col">
         {projects.map((project, indx) => (
             <Tilt key={indx}  glareEnable={false} glareMaxOpacity={0.3} scale={1.03} tiltMaxAngleX={10} tiltMaxAngleY={10}>
-            <div className=" cursor-pointer p-5 shadow shadow-gray-300 overflow-hidden flex flex-wrap h-40 bg-linear-to-br from-amber-100 to-amber-200 my-4 relative rounded-2xl  hover:shadow-[4px_4px_4px]  transition-all duration-200 lg:w-full  ">
+            <div className=" cursor-pointer p-5 shadow shadow-gray-800 overflow-hidden flex flex-wrap h-40 bg-linear-to-br from-gray-500 to-gray-700 my-4 relative rounded-2xl  hover:shadow-[4px_4px_4px]  transition-all duration-200 lg:w-full  ">
                 <div className='flex '> 
                    <img src={project.image} className='h-13 m-1 rounded-2xl'></img><h1 className='text-2xl poppins font-semibold p-3'>{project.title}</h1> 
                 </div>
                 <p className=' lg:text-sm text-xs poppins '>{project.description}</p>
                <a href={project.link} target="_blank">  
-            <button className=" absolute poppins -bottom-3 right-1">
+            <button className=" absolute poppins button-git -bottom-3 right-1">
                     
             <div className="text">
                 <span>see</span>

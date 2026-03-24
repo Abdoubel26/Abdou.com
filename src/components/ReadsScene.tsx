@@ -35,7 +35,7 @@ const ReadsScene = ({elementRef}: {elementRef: RefObject<HTMLDivElement>}) => {
 
     useFrame(() => {
                 if (groupRef.current) {
-                    groupRef.current.position.x = -bcovers.length * 2.45 * progress.current
+                    groupRef.current.position.x = -bcovers.length * 2.2 * progress.current
     }})
 
   return (
