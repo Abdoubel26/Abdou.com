@@ -9,7 +9,7 @@ function Skills() {
         <div className='w-screen h-[200vh] books-section  '>
 
         <div className="sticky top-0 h-screen skills-section">
-            <Canvas className="w-full h-full" style={{ background: "#1a1a1a" }}>
+            <Canvas className="w-full h-full" style={{ background: "#00000" }}>
               <SkillsScene />
             </Canvas>
         </div>

@@ -13,7 +13,7 @@ const Reads = () => {
         <div className='w-screen h-[200vh] books-section  ' ref={booksRef} >
 
         <div className="sticky top-0 h-screen">
-            <Canvas className="w-full h-full" style={{ background: "#1a1a1a" }} camera={{position: [0, 0 ,1.5]}}>
+            <Canvas className="w-full h-full" style={{ background: "##00008B" }} camera={{position: [0, 0 ,1.5]}}>
             <ReadsScene elementRef={booksRef} />
             </Canvas>
         </div>
