@@ -1,7 +1,7 @@
 import sign from '../assets/signature.png'
 import emailjs from "emailjs-com";
 import { useState } from 'react';
-
+ 
 
 
 function Contact() {
@@ -13,7 +13,7 @@ function Contact() {
   
   function sendMessage(message: string, firstName: string, lastName: string, email: string) {
   emailjs.send(
-    "service_en76gh5",     
+    "service_cu4adwh",     
     "template_ugey1if",     
     { name: firstName + ' ' + lastName,
       message: message,
