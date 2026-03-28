@@ -32,7 +32,7 @@ function Contact() {
 
   return (
     <div className='h-fit flex flex-col items-center bg-linear-to-b  from-blue-950 to-gray-900 text-white'>
-        <h1 className="outfit lg:text-5xl text-4xl mt-13 mb-6 font-bold underline  ">Let's Connect!</h1>
+        <h1 className="outfit lg:text-6xl text-4xl mt-20 mb-6 font-bold underline  ">Let's Connect!</h1>
 
         <div className='flex row h-full  w-screen'>
 
