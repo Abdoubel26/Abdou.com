@@ -24,9 +24,9 @@ function Nav(refs: PropTypes ) {
         </div>
         
         <div className="flex flex-row lg:justify-end lg:gap-20 justify-around w-full my-2 items-center outfit">
+        <nav  onClick={() => scrollTo(refs.aboutRef)} className="lg:px-3 px-1 text-md lg:text-2xl font-bold text-white uppercase cursor-pointer">About</nav>
         <nav  onClick={() => scrollTo(refs.projectsRef)} className="lg:px-3 px-1 text-md lg:text-2xl font-bold text-white uppercase cursor-pointer">Projects</nav>
         <nav  onClick={() => scrollTo(refs.skillsRef)} className="lg:px-3 px-1 text-md lg:text-2xl font-bold text-white uppercase cursor-pointer">Skills</nav>
-        <nav  onClick={() => scrollTo(refs.aboutRef)} className="lg:px-3 px-1 text-md lg:text-2xl font-bold text-white uppercase cursor-pointer">About</nav>
         <nav  onClick={() => scrollTo(refs.contactRef)} className="lg:px-3 px-1 text-md lg:text-2xl font-bold text-white uppercase cursor-pointer">Contact</nav>  
         </div>
         
