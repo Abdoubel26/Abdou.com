@@ -93,10 +93,10 @@ function Contact() {
                   e.preventDefault()
                   sendMessage(message, firstName, lastName, email)
                 }}>
-                <div className='flex flex-col w-full items-center justify-center lg:flex-row'>
+                <div className='flex flex-col w-full items- justify-center lg:flex-row'>
 
                 <div className='flex flex-col mx-1 '><label className='ml-2'>First Name</label><input value={firstName} onChange={(e) => setFirstName(e.target.value)} required type='text' placeholder='First Name' className='rounded-full p-2 focus:outline-none bg-gray-200 text-black pl-4  outfit text-lg border-black border'></input></div> 
-                <div className='flex flex-col mx-1 '><label className='ml-2'>Last Name</label><input value={lastName} onChange={(e) => setLastName(e.target.value)} required type='text' placeholder='Last Name' className='rounded-full p-2 focus:outline-none  bg-gray-200  text-black pl-4 outfit text-lg border-black border'></input></div>
+                <div className='flex flex-col mx-1  '><label className='ml-2'>Last Name</label><input value={lastName} onChange={(e) => setLastName(e.target.value)} required type='text' placeholder='Last Name' className='rounded-full p-2 focus:outline-none  bg-gray-200  text-black pl-4 outfit text-lg border-black border'></input></div>
                 </div>
                  <div className='flex flex-col mx-1 mt- w-full lg:my-6 justify-center items-center'><label className='lg:ml-11 p-1 self-start'>Email</label><input value={email} onChange={(e) => setEmail(e.target.value)} required type='email' placeholder='Emai' className='rounded-full lg:w-[86%] p-2 w-full focus:outline-none  bg-gray-200  text-black pl-4 outfit text-lg border-black border'></input></div>
                  <div className='flex flex-col mx-1  w-full items-center justify-center  mb-3 px-1 '><label className='lg:ml-11 p-1 self-start '>Message</label><textarea value={message} onChange={(e) => setMessage(e.target.value)} rows={5} placeholder='Write Your Message Here' className='rounded-2xl p-2 lg:w-[86%] w-full focus:outline-none bg-gray-200  text-black pl-4 outfit text-lg border-black border'></textarea></div>
