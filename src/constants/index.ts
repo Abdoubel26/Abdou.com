@@ -8,20 +8,17 @@ import paleBlueDot from '../assets/book cover/pale-blue-dot.jpg' //
 import sapiens from '../assets/book cover/sapiens.webp' //
 import blackHoles from '../assets/book cover/black-holes.webp' // 
 import SchCat from '../assets/book cover/cat.jpg' //
-import nexus from '../assets/book cover/nexus.jpg' //
-import theWordAsIsSeeIt from '../assets/book cover/worldas.jpg'
-import dale from '../assets/book cover/dale.jpg' //
-
+import zeroToOneCover from '../assets/book cover/zerotoone.jpg'
+import theLeanStartupCover from '../assets/book cover/theleanstartup.jpeg'
+import blitzscalingCover from '../assets/book cover/blitzscaling.jpg'
 
 
 import paleBlueDotSpine from '../assets/book cover/pale-blue-dot-spine.png' //
 import sapiensSpine from '../assets/book cover/sapiens-spine.png' //
 import blackHolesSpine from '../assets/book cover/black-holes-spine.jpg' // 
-import SchCatSpine from '../assets/book cover/cat-spine.png' //
-import nexusSpine from '../assets/book cover/nexus-spine.png' //
-import theWordAsIsSeeItSpine from '../assets/book cover/worldas-spine.png' //
-import daleSpine from '../assets/book cover/dale-spine.png' //
-
+import zeroToOneSpineCover from '../assets/book cover/zerotoone-spine.png'
+import theLeanStartupSpineCover from '../assets/book cover/theleanstartup-spine.png'
+import blitzscalingSpineCover from '../assets/book cover/blitzscaling-spine.png'
 
 type bcoversType = {cover: string, spineCover: string}
 
@@ -30,9 +27,9 @@ export const bcovers: bcoversType[] = [
   {cover: sapiens, spineCover: sapiensSpine},
   {cover: blackHoles, spineCover: blackHolesSpine},
   {cover: SchCat, spineCover: SchCatSpine}, 
-  {cover: nexus, spineCover: nexusSpine},
-  {cover: theWordAsIsSeeIt, spineCover: theWordAsIsSeeItSpine},
-  {cover: dale, spineCover: daleSpine},
+  {cover: zeroToOneCover, spineCover: zeroToOneSpineCover},
+  {cover: theLeanStartupCover, spineCover: theLeanStartupSpineCover},
+  {cover: blitzscalingCover, spineCover: blitzscalingSpineCover}
 ]
 
 
