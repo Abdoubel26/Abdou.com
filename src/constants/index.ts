@@ -19,6 +19,7 @@ import blackHolesSpine from '../assets/book cover/black-holes-spine.jpg' //
 import zeroToOneSpineCover from '../assets/book cover/zerotoone-spine.png'
 import theLeanStartupSpineCover from '../assets/book cover/theleanstartup-spine.png'
 import blitzscalingSpineCover from '../assets/book cover/blitzscaling-spine.png'
+import SchCatSpine from "../assets/book cover/cat-spine.png"
 
 type bcoversType = {cover: string, spineCover: string}
 
