@@ -3,6 +3,7 @@ import x from '../assets/x.jpg'
 import gemini from '../assets/gemini.png'
 import QuickCaht from '../assets/quickChat.svg'
 import VRlogo from '../assets/vrlogo.png'
+import gladLogo from '../assets/glad.png'
 
 import paleBlueDot from '../assets/book cover/pale-blue-dot.jpg' //
 import sapiens from '../assets/book cover/sapiens.webp' //
@@ -40,7 +41,7 @@ export const projects = [
     title: "Solvra",
     description: "An app helping people clarify their problems using a recursive method",
     image: solvra,
-    link: "https://github.com/Abdoubel26/Google-Gemini-clone",
+    link: "https://github.com/Abdoubel26/Solvra",
   },
   {
     title: "Gemini Clone",
@@ -50,21 +51,27 @@ export const projects = [
   },
   {
     title: "Twitter Clone",
-    description: "A full Stack X clone with user authentication, posts, likes, follows, user and post search, real-time chat, and Grok clone",
+    description: "Full Stack X clone with user authentication, posts, likes, follows, user and post search, real-time chat, and Grok clone",
     image: x,
     link: "https://github.com/Abdoubel26/twitter-clone"
   },
    {
     title: "QuickChat",
-    description: "full stack real-time chatting app with Websockets and user authentication",
+    description: "Full stack real-time chatting app with Websockets and user authentication",
     image: QuickCaht,
-    link: "https://github.com/Abdoubel26/twitter-clone"
+    link: "https://github.com/Abdoubel26/QuickChat"
   },
   {
     title: "Virtualr",
-    description: "A concept landing page for a Virtual Reality software company",
+    description: "concept landing page for a Virtual Reality software company",
     image: VRlogo,
-    link: "https://github.com/Abdoubel26/twitter-clone"
+    link: "https://github.com/Abdoubel26/VR-company-website"
+  }, 
+  {
+    title: "Glad",
+    description: "News platform dedicated only for good news and positive stories around the world",
+    image: gladLogo,
+    link: "https://github.com/Abdoubel26/Glad"
   }
 
 ]
