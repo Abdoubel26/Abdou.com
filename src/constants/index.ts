@@ -2,7 +2,7 @@ import solvra from '../assets/Solvra_icon.png'
 import x from '../assets/x.jpg'
 import gemini from '../assets/gemini.png'
 import QuickCaht from '../assets/quickChat.svg'
-import VRlogo from '../assets/vrlogo.png'
+import FTLogo from '../assets/FT.png'
 import gladLogo from '../assets/glad.png'
 
 import paleBlueDot from '../assets/book cover/pale-blue-dot.jpg' //
@@ -62,10 +62,10 @@ export const projects = [
     link: "https://github.com/Abdoubel26/QuickChat"
   },
   {
-    title: "Virtualr",
-    description: "concept landing page for a Virtual Reality software company",
-    image: VRlogo,
-    link: "https://github.com/Abdoubel26/VR-company-website"
+    title: "Finances-Trackr",
+    description: "Full stack Next.js app that helps users track their balances and transactions",
+    image: FTLogo,
+    link: "https://github.com/Abdoubel26/financial-manager"
   }, 
   {
     title: "Glad",
