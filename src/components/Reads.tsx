@@ -2,8 +2,6 @@ import { Canvas } from "@react-three/fiber";
 import ReadsScene from "./ReadsScene";
 import { useRef } from "react";
 
-
-
 const Reads = () => {    
     const booksRef = useRef<HTMLDivElement>(null!)
         return (
@@ -21,7 +19,5 @@ const Reads = () => {
         </div>
         )
 }
-
-
 
 export default Reads

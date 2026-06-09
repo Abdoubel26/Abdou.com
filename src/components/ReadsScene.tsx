@@ -27,7 +27,7 @@ const ReadsScene = ({elementRef}: {elementRef: RefObject<HTMLDivElement>}) => {
                 scrub: 6,
                 },
             });
-        ScrollTrigger.refresh(); // ensure correct measurement
+        ScrollTrigger.refresh();
 
         return () => { ctx.revert(); }
       }

@@ -3,7 +3,6 @@ import emailjs from "emailjs-com";
 import { useState } from 'react';
  
 
-
 function Contact() {
   
   const [message, setMessage] = useState<string>('')
@@ -26,8 +25,6 @@ function Contact() {
   setLastName('')
   setMessage('')
   }
-
-
 
 
   return (
@@ -111,8 +108,3 @@ function Contact() {
 }
 
 export default Contact
-
-
-// service_en76gh5
-// template_ugey1if
-// 

@@ -8,8 +8,6 @@ type PropTypes = {
 
 }
 
-
-
 function Nav(refs: PropTypes ) {
 
 

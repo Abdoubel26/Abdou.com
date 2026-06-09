@@ -72,7 +72,7 @@ export const projects = [
   }, 
   {
     title: "Glad",
-    description: "News platform dedicated only for good news and positive stories around the world (under update)",
+    description: "News platform dedicated only for good news and positive stories.",
     image: gladLogo,
     link: "https://github.com/Abdoubel26/Glad"
   },

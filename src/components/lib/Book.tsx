@@ -5,9 +5,11 @@ import pagesimg from '../../assets/book cover/pages-spine.png'
 type PorpTypes =  {cover: string, spineCover: string, position: number} 
 
 function Book({ cover, spineCover, position }: PorpTypes) {
+  
   const texture = useTexture(cover);
   const spineTexture = useTexture(spineCover)
   const pagesTexture = useTexture(pagesimg)
+
   return (
     <mesh position={[ position*1.9 , 0 , 0]}>
     <boxGeometry args={[1, 1.5, 0.2]} />

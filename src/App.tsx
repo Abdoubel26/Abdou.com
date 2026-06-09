@@ -14,8 +14,6 @@ function App() {
   const skillsRef = useRef<HTMLDivElement | null>(null)
   const contactRef = useRef<HTMLDivElement | null>(null)
 
-
-  
   return (
     <>
     <Nav  projectsRef={projectsRef} aboutRef={aboutRef} skillsRef={skillsRef} contactRef={contactRef}/>
