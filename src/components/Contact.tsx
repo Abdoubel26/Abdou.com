@@ -9,7 +9,8 @@ function Contact() {
   const [firstName, setFirstName] = useState<string>('')
   const [lastName, setLastName] = useState<string>('')
   const [email, setEmail] = useState<string>('');
-  
+  const [showMessage, setShowMessage] = useState<boolean>(false)
+
   function sendMessage(message: string, firstName: string, lastName: string, email: string) {
   emailjs.send(
     "service_cu4adwh",     
@@ -24,6 +25,7 @@ function Contact() {
   setFirstName('')
   setLastName('')
   setMessage('')
+  setShowMessage(true)
   }
 
 
@@ -86,18 +88,25 @@ function Contact() {
             </div>
 
             <div className='flex flex-col p-2 items-center w-full lg:w-[50%]'>
+
+              {
+                showMessage && (
+                  <p className="mt-1 text-sm text-green-700 py-3"> Thank you for reaching out. I'll get back to you as soon as possible. </p>
+              )
+              }
                 <form className='flex flex-col items-center w-full' onSubmit={(e) => { 
+                  setShowMessage(false)
                   e.preventDefault()
                   sendMessage(message, firstName, lastName, email)
                 }}>
                 <div className='flex flex-col w-full items- justify-center lg:flex-row'>
 
-                <div className='flex flex-col mx-1 '><label className='ml-2'>First Name</label><input value={firstName} onChange={(e) => setFirstName(e.target.value)} required type='text' placeholder='First Name' className='rounded-full p-2 focus:outline-none bg-gray-200 text-black pl-4  outfit text-lg border-black border'></input></div> 
-                <div className='flex flex-col mx-1  '><label className='ml-2'>Last Name</label><input value={lastName} onChange={(e) => setLastName(e.target.value)} required type='text' placeholder='Last Name' className='rounded-full p-2 focus:outline-none  bg-gray-200  text-black pl-4 outfit text-lg border-black border'></input></div>
+                <div className='flex flex-col  mx-1 '><label className='ml-2'>First Name</label><input value={firstName} onChange={(e) => setFirstName(e.target.value)} required type='text' placeholder='First Name' className='rounded-full p-2 focus:outline-none bg-gray-200 text-black pl-4 lg:w-auto  outfit text-lg w-full border-black border'></input></div> 
+                <div className='flex flex-col mx-1   '><label className='ml-2'>Last Name</label><input value={lastName} onChange={(e) => setLastName(e.target.value)} required type='text' placeholder='Last Name' className='rounded-full p-2 focus:outline-none  bg-gray-200  text-black pl-4 lg:w-auto outfit text-lg w-full border-black border'></input></div>
                 </div>
                  <div className='flex flex-col mx-1 mt- w-full lg:my-6 justify-center items-center'><label className='lg:ml-11 p-1 self-start'>Email</label><input value={email} onChange={(e) => setEmail(e.target.value)} required type='email' placeholder='Email' className='rounded-full lg:w-[86%] p-2 w-full focus:outline-none  bg-gray-200  text-black pl-4 outfit text-lg border-black border'></input></div>
                  <div className='flex flex-col mx-1  w-full items-center justify-center  mb-3 px-1 '><label className='lg:ml-11 p-1 self-start '>Message</label><textarea value={message} onChange={(e) => setMessage(e.target.value)} rows={5} placeholder='Write Your Message Here' className='rounded-2xl p-2 lg:w-[86%] w-full focus:outline-none bg-gray-200  text-black pl-4 outfit text-lg border-black border'></textarea></div>
-                <button type='submit' className=' rounded-full border-white bungee border-2 text-white hover:shadow-[3px_5px_0px_rgba(0,0,0,0.3)] transition-all duration-200 active:shadow-none hover:shadow-olive-300 p-3 w-[86%]  bg-black'>Submit</button>
+                <button type='submit' onClick={() => setShowMessage(false)} className=' rounded-full border-white cursor-pointer bungee border-2 text-white hover:shadow-[3px_5px_0px_rgba(0,0,0,0.3)] transition-all duration-200 active:shadow-none hover:shadow-olive-300 p-3 lg:w-[86%]  w-full bg-black'>Submit</button>
                 </form>
             </div>
 

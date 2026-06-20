@@ -30,7 +30,7 @@ function Me() {
     <div className="flex bg-linear-to-tr from-amber-100/20  to-amber-400/20 flex-row justify-center w-full lg:p-10 p-2 pt-10">
         <div className='lg:px-5 px-1'>
             <div className=' lg:h-60 lg:w-60 h-40 bg-gray-900 rounded-full w-40 p-3 lg:p-4 relative m-3'>
-                <img src={pic} className='rounded-full overflow-hidden'></img>
+                <img src={pic} alt='Abdou Belounis' className='rounded-full overflow-hidden'></img>
                 <svg
                     className="absolute inset-0 binary-ring rotate-0"
                     viewBox="0 0 100 100"
