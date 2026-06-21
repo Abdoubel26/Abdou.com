@@ -31,7 +31,7 @@ function Projects() {
             <Link to={`/project/${project.id}`} className="cursor-pointer" key={indx}><Tilt   glareEnable={false} glareMaxOpacity={0.3} scale={1.03} tiltMaxAngleX={10} tiltMaxAngleY={10}>
             <div className=" cursor-pointer p-5 shadow shadow-gray-800 overflow-hidden flex flex-wrap h-40 bg-linear-to-br from-amber-200 to-amber-400 my-4 relative rounded-2xl  hover:shadow-[4px_4px_4px]  transition-all duration-200 lg:w-full  ">
                 <div className='flex cursor-pointer '> 
-                   <img src={project.image} className='h-13 m-1 cursor-pointer rounded-2xl'></img><h1 className='text-2xl cursor-pointer poppins font-semibold p-3'>{project.title}</h1> 
+                   <img src={project.image} className='h-13 m-1 cursor-pointer rounded-2xl'></img><h1 className='text-2xl cursor-pointer poppins whitespace-nowrap font-semibold p-3'>{project.title}</h1> 
                 </div>
                 <p className=' cursor-pointer lg:text-sm text-xs poppins '>{project.description}</p>
                <a href={project.githubLink} target="_blank">  
@@ -68,7 +68,7 @@ function Projects() {
 
         </div>
         
-        <p className={`text-white cursor-pointer flex gap-1.5 ${showMore ? "hidden" : "flex"}`} onClick={() => setShowMore(prev => !prev)}> <ArrowDown />Show More... </p>
+        <p className={`text-white mb-6 lg:mb-0 cursor-pointer flex gap-1.5 ${showMore ? "hidden" : "flex"}`} onClick={() => setShowMore(prev => !prev)}> <ArrowDown />Show More... </p>
     </div>   );
 }
 

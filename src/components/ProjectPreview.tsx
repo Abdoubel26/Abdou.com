@@ -21,9 +21,15 @@ function ProjectPreview() {
     );
     }
 
-    const otherProjects = projects
-    .filter((p) => p.id !== project.id)
-    .slice(0, 3);
+    const filteredProjects = projects.filter((p) => p.id !== project.id);
+
+    for (let i = filteredProjects.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [filteredProjects[i], filteredProjects[j]] = [filteredProjects[j], filteredProjects[i]];
+    }
+    
+    const otherProjects = filteredProjects.slice(0, 3);
+  
 
     return ( <div className="min-h-screen bg-linear-to-b from-blue-950 to-gray-900 text-white pb-20">
 
@@ -35,7 +41,7 @@ function ProjectPreview() {
         className="inline-flex items-center gap-2 mt-8 mb-10 hover:text-amber-300 transition"
         >
         <ArrowLeft size={18} />
-        Back to Projects
+        Back to Home
         </Link>
 
         
