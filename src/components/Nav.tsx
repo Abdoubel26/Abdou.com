@@ -10,7 +10,6 @@ type PropTypes = {
 
 function Nav(refs: PropTypes ) {
 
-
     const scrollTo = (ref: RefObject<HTMLDivElement | null>) => {
         ref.current?.scrollIntoView({ behavior: "smooth"})
     }
