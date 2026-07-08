@@ -107,7 +107,7 @@ export const projects: ProjectType[] = [
     screenshot: SS_debatria,
     image: debatriaLogo,
     githubLink: "https://github.com/Abdoubel26/Debatria",
-    previewLink: "https://debatria.netlify.app/"
+    previewLink: "https://debatria.vercel.app/"
   },
   {
     id: 2,
