@@ -61,6 +61,26 @@ previewLink: string | null;
 };
 
 export const projects: ProjectType[] = [
+   {
+    id: 0,
+    title: "Solvra",
+    description: "A problem-solving application that helps users clarify complex issues using a structured recursive methodology.",
+    longDescription: "Solvra is a problem-solving platform designed to help users break down complex personal, professional, or technical challenges into smaller, more manageable components. Using a structured recursive methodology, the application guides users through identifying root causes, exploring possible solutions, and organizing their thoughts into a clear decision-making process.",
+    techStack: [
+      "React", 
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    features: [
+      "Recursive Problem Solving",
+      "Interactive UX",
+      "Responsive UI"
+    ],
+    screenshot: SS_solvra,
+    image: solvra,
+    githubLink: "https://github.com/Abdoubel26/Solvra",
+    previewLink: "https://solvra-app.vercel.app/"
+  },
   {
     id: 1,
     title: "Debatria",
@@ -247,25 +267,5 @@ export const projects: ProjectType[] = [
     image: QuickChat,
     githubLink: "https://github.com/Abdoubel26/QuickChat",
     previewLink: null
-  },
-  {
-    id: 9,
-    title: "Solvra",
-    description: "A problem-solving application that helps users clarify complex issues using a structured recursive methodology.",
-    longDescription: "Solvra is a problem-solving platform designed to help users break down complex personal, professional, or technical challenges into smaller, more manageable components. Using a structured recursive methodology, the application guides users through identifying root causes, exploring possible solutions, and organizing their thoughts into a clear decision-making process.",
-    techStack: [
-      "React", 
-      "TypeScript",
-      "TailwindCSS"
-    ],
-    features: [
-      "Recursive Problem Solving",
-      "Interactive UX",
-      "Responsive UI"
-    ],
-    screenshot: SS_solvra,
-    image: solvra,
-    githubLink: "https://github.com/Abdoubel26/Solvra",
-    previewLink: "https://solvra-co.netlify.app/"
   }
 ];

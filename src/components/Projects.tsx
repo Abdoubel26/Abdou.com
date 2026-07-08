@@ -2,7 +2,7 @@ import { projects, type ProjectType } from "../constants";
 import Tilt from 'react-parallax-tilt'
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Flag } from "lucide-react";
 
 
 function Projects() {
@@ -33,6 +33,14 @@ function Projects() {
                 <div className='flex cursor-pointer '> 
                    <img src={project.image} className='h-13 m-1 cursor-pointer rounded-2xl'></img><h1 className='text-2xl cursor-pointer poppins whitespace-nowrap font-semibold p-3'>{project.title}</h1> 
                 </div>
+
+           {project.id === 0 && (
+            <div className="absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-gradient-to-r from-blue-950/60 to-indigo-950/60 text-blue-200 border border-blue-500/30 backdrop-blur-md shadow-lg shadow-blue-950/20">
+                <Flag className="w-3.5 h-3.5 text-blue-400 animate-pulse" />
+                <span>Flagship Project</span>
+            </div>
+        )}
+
                 <p className=' cursor-pointer lg:text-sm text-xs poppins '>{project.description}</p>
                <a href={project.githubLink} target="_blank">  
             <button className=" absolute poppins button-git -bottom-3 right-1">
