@@ -69,12 +69,20 @@ export const projects: ProjectType[] = [
     techStack: [
       "React", 
       "TypeScript",
-      "TailwindCSS"
+      "TailwindCSS", 
+      "Nextjs",
+      "ReactFlow",
+      "Drizzle ORM",
+      "Clerk",
+      "PostgresSQL"
     ],
     features: [
       "Recursive Problem Solving",
       "Interactive UX",
-      "Responsive UI"
+      "Responsive UI", 
+      "Authentication",
+      "Dynamic Zooming",
+      "Dynamic Hierarchy"
     ],
     screenshot: SS_solvra,
     image: solvra,
