@@ -6,7 +6,7 @@ import FTLogo from '../assets/FT.png';
 import gladLogo from '../assets/glad.png';
 import MS from '../assets/MS.png';
 import debatriaLogo from '../assets/debatria.png';
-import gemini from '../assets/gemini.png'
+import xenom from '../assets/xenom-ai.png'
 
 import SS_solvra from "../assets/screenshots/solvra-screenshot.png";
 import SS_x from "../assets/screenshots/twitter-clone-screenshot.png";
@@ -15,7 +15,7 @@ import SS_quickChat from "../assets/screenshots/quickchat-screenshot.png";
 import SS_FT from "../assets/screenshots/finances-trakr-screenshot.png";
 import SS_glad from "../assets/screenshots/glad-screenshot.png"
 import SS_debatria from "../assets/screenshots/debatria-screenshot.png"
-import SS_gemini from "../assets/screenshots/gemini-clone-screenshot.png"
+import SS_xenom from "../assets/screenshots/xenom-ai-screenshot.png"
 
 import paleBlueDot from '../assets/book cover/pale-blue-dot.jpg'; 
 import sapiens from '../assets/book cover/sapiens.webp'; 
@@ -235,23 +235,24 @@ export const projects: ProjectType[] = [
   },
   {
     id: 7,
-    title: "Gemini Clone",
-    description: "An AI-powered interface replicating advanced LLM features to demonstrate modern API integration and generative web workflows.",
-    longDescription: "Gemini Clone is an AI-powered web application that replicates the experience of interacting with a modern large language model. The project demonstrates prompt handling, API integration, conversational interfaces, and responsive user experience design. It serves as both a practical AI integration project and a showcase of modern frontend development techniques.",
+    title: "Xenom AI",
+    description: "Xenom AI is an advanced AI chatbot specializing in astrophysics, astronomy, and space exploration. Powered by the Groq API, it provides accurate and insightful responses to your space-related queries.",
+    longDescription: "Xenom AI is ",
     techStack: [
       "React",
-      "JavaScript",
-      "Responsive UI"
+      "TypeScript",
+      "Groq API"
     ],
     features: [
       "Real-Time Chatbot Messaging",
       "API Integration", 
-      "Prompt Injection"
+      "Responsive UI",
+      "Ultra-Fast Reply Speed"
     ],
-    screenshot: SS_gemini,
-    image: gemini,
-    githubLink: "https://github.com/Abdoubel26/Google-Gemini-clone",
-    previewLink: null
+    screenshot: SS_xenom,
+    image: xenom,
+    githubLink: "https://github.com/Abdoubel26/Xenom-ai",
+    previewLink: "https://xenom-ai.vercel.app/"
   },
   {
     id: 8,
