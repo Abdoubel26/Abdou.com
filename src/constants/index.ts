@@ -236,8 +236,8 @@ export const projects: ProjectType[] = [
   {
     id: 7,
     title: "Xenom AI",
-    description: "Xenom AI is an advanced AI chatbot specializing in astrophysics, astronomy, and space exploration. Powered by the Groq API, it provides accurate and insightful responses to your space-related queries.",
-    longDescription: "Xenom AI is ",
+    description: "An AI-powered chatbot for astronomy and space exploration, delivering fast and insightful answers through the Groq API.",
+    longDescription: "Xenom AI is a specialized conversational assistant designed for astronomy, astrophysics, and space exploration enthusiasts. Powered by the Groq API, it provides fast, accurate, and engaging responses to questions about planets, stars, galaxies, black holes, and space missions. The project combines modern UI design with intelligent, real-time interaction to make complex cosmic topics more accessible and enjoyable for curious users.",
     techStack: [
       "React",
       "TypeScript",
