@@ -164,7 +164,7 @@ export const projects: ProjectType[] = [
     screenshot: SS_rendezvous,
     image: rendezvous,
     githubLink: "https://github.com/Abdoubel26/appointment-tracker",
-    previewLink: "https://rendezvous-trackr.netlify.app/"
+    previewLink: "https://rendezvous-trackr.vercel.app/"
   },
   {
     id: 4,
@@ -214,7 +214,7 @@ export const projects: ProjectType[] = [
     screenshot: SS_FT,
     image: FTLogo,
     githubLink: "https://github.com/Abdoubel26/financial-manager",
-    previewLink: "https://finances-trackr.netlify.app/"
+    previewLink: "https://finances-trackr.vercel.app/"
   },
   {
     id: 6,
