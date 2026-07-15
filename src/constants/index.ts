@@ -58,6 +58,7 @@ screenshot: string | null;
 image: string;
 githubLink: string;
 previewLink: string | null;
+downloadLink?: string | null;
 };
 
 export const projects: ProjectType[] = [
@@ -252,7 +253,9 @@ export const projects: ProjectType[] = [
     screenshot: null,
     image: MS,
     githubLink: "https://github.com/Abdoubel26/mindful-scroll",
-    previewLink: null
+    previewLink: null,
+    downloadLink: "/mindful-scroll.zip" 
+
   },
   {
     id: 8,

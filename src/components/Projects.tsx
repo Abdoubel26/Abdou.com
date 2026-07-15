@@ -35,7 +35,7 @@ function Projects() {
                 </div>
 
            {project.id === 0 && (
-            <div className="absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-gradient-to-r from-blue-950/60 to-indigo-950/60 text-blue-200 border border-blue-500/30 backdrop-blur-md shadow-lg shadow-blue-950/20">
+            <div className="absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-linear-to-r from-blue-950/60 to-indigo-950/60 text-blue-200 border border-blue-500/30 backdrop-blur-md shadow-lg shadow-blue-950/20">
                 <Flag className="w-3.5 h-3.5 text-blue-400 animate-pulse" />
                 <span>Flagship Project</span>
             </div>
