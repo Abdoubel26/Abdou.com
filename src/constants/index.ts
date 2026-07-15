@@ -192,7 +192,7 @@ export const projects: ProjectType[] = [
     screenshot: SS_x,
     image: x,
     githubLink: "https://github.com/Abdoubel26/twitter-clone",
-    previewLink: null
+    previewLink: "https://twitter-clone-1-k2hq.onrender.com"
   },
   {
     id: 5,
@@ -216,25 +216,8 @@ export const projects: ProjectType[] = [
     githubLink: "https://github.com/Abdoubel26/financial-manager",
     previewLink: "https://finances-trackr.vercel.app/"
   },
-  {
+   {
     id: 6,
-    title: "Mindful-Scroll",
-    description: "A productivity-focused Chrome extension that monitors social media usage and enforces customizable daily time limits.",
-    longDescription: "Mindful Scroll is a productivity-focused Chrome extension that helps users develop healthier digital habits by monitoring time spent on distracting websites. The extension allows users to define daily limits and automatically restrict access once those limits are reached, encouraging more intentional internet usage and improved focus.",
-    techStack: [
-      "JavaScript"
-    ],
-    features: [
-      "Timer",
-      "Website Blocking"
-    ],
-    screenshot: null,
-    image: MS,
-    githubLink: "https://github.com/Abdoubel26/mindful-scroll",
-    previewLink: null
-  },
-  {
-    id: 7,
     title: "Xenom AI",
     description: "An AI-powered chatbot for astronomy and space exploration, delivering fast and insightful answers through the Groq API.",
     longDescription: "Xenom AI is a specialized conversational assistant designed for astronomy, astrophysics, and space exploration enthusiasts. Powered by the Groq API, it provides fast, accurate, and engaging responses to questions about planets, stars, galaxies, black holes, and space missions. The project combines modern UI design with intelligent, real-time interaction to make complex cosmic topics more accessible and enjoyable for curious users.",
@@ -255,10 +238,27 @@ export const projects: ProjectType[] = [
     previewLink: "https://xenom-ai.vercel.app/"
   },
   {
+    id: 7,
+    title: "Mindful-Scroll",
+    description: "A productivity-focused Chrome extension that monitors social media usage and enforces customizable daily time limits.",
+    longDescription: "Mindful Scroll is a productivity-focused Chrome extension that helps users develop healthier digital habits by monitoring time spent on distracting websites. The extension allows users to define daily limits and automatically restrict access once those limits are reached, encouraging more intentional internet usage and improved focus.",
+    techStack: [
+      "JavaScript"
+    ],
+    features: [
+      "Timer",
+      "Website Blocking"
+    ],
+    screenshot: null,
+    image: MS,
+    githubLink: "https://github.com/Abdoubel26/mindful-scroll",
+    previewLink: null
+  },
+  {
     id: 8,
     title: "QuickChat",
-    description: "A high-performance, real-time chat application built with secure user authentication and persistent WebSocket connections.",
-    longDescription: "QuickChat is a real-time messaging application focused on speed, reliability, and user experience. The platform enables authenticated users to communicate instantly through persistent WebSocket connections while maintaining secure account management. The project demonstrates the implementation of real-time communication systems and scalable chat architecture.",
+    description: "A first full-stack chat app that taught me the foundations of real-time web development.",
+    longDescription: "QuickChat is a real-time messaging application focused on speed, reliability, and user experience. The platform enables authenticated users to communicate instantly through persistent WebSocket connections while maintaining secure account management. The project demonstrates the implementation of real-time communication systems and scalable chat architecture. This was my very first MERN stack application. While the UI is simple, building this taught me the fundamentals of state management, Express routing, and password hashing. If I were to rebuild this today, I would use Tailwind CSS component files, implement React Query for server state, and handle WebSockets via Redis for scalability.",
     techStack: [
       "MongoDB",
       "ExpressJS",
