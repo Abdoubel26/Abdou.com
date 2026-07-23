@@ -1,7 +1,7 @@
 import solvra from '../assets/Solvra_icon.png';
 import x from '../assets/x.jpg';
 import rendezvous from '../assets/rendezvous.png';
-import QuickChat from '../assets/quickChat.svg';
+import trustfall from '../assets/trustfall.png';
 import FTLogo from '../assets/FT.png';
 import gladLogo from '../assets/glad.png';
 import MS from '../assets/MS.png';
@@ -11,7 +11,7 @@ import xenom from '../assets/xenom-ai.png'
 import SS_solvra from "../assets/screenshots/solvra-screenshot.png";
 import SS_x from "../assets/screenshots/twitter-clone-screenshot.png";
 import SS_rendezvous from "../assets/screenshots/rendezvous-trackr-screenshot.png";
-import SS_quickChat from "../assets/screenshots/quickchat-screenshot.png";
+import SS_trustfall from "../assets/screenshots/trustfall-screenshot.png";
 import SS_FT from "../assets/screenshots/finances-trakr-screenshot.png";
 import SS_glad from "../assets/screenshots/glad-screenshot.png"
 import SS_debatria from "../assets/screenshots/debatria-screenshot.png"
@@ -143,29 +143,33 @@ export const projects: ProjectType[] = [
     githubLink: "https://github.com/Abdoubel26/Glad",
     previewLink: "https://glad-news.netlify.app/"
   },
-  {
+   {
     id: 3,
-    title: "Rendezvous Trackr",
-    description: "A full-stack Next.js platform for individuals and small businesses to streamline appointment scheduling and meeting management.",
-    longDescription: "Rendezvous Trackr is a full-stack appointment management platform built for individuals and small businesses. The application streamlines scheduling by providing an intuitive dashboard for managing appointments, tracking statuses, and organizing customer interactions. The project focuses on creating a reliable and efficient booking workflow while maintaining secure authentication and persistent data management.",
+    title: "TrustFall",
+    description: "An AI spectator arena and real-time multiplayer PvP game exploring the Iterated Prisoner's Dilemma.",
+    longDescription: "TrustFall is a game-theory simulation platform that allows users to test strategies in the Iterated Prisoner's Dilemma. It features an AI Spectator Arena where distinct LLMs battle autonomously using customized system personalities, as well as a real-time multiplayer PvP mode powered by WebSockets for direct player vs. player strategic showdowns.",
     techStack: [
-      "Nextjs",
+      "NextJS",
       "TypeScript",
-      "Tailwind CSS",
-      "Drizzle ORM",
-      "JSON Web Token",
-      "Bcrypt",
-      "PostgresSQL"
+      "TailwindCSS",
+      "Framer Motion",
+      "NodeJS",
+      "ExpressJS",
+      "Socket.io",
+      "Groq API"
     ],
     features: [
-      "Authentication", 
-      "Appointments Dashboard",
-      "Automatic Status Update"
+      "AI Arena Spectator Mode",
+      "Custom Model & Personality Selection",
+      "Real-Time Matchmaking",
+      "Iterated Prisoner's Dilemma Game Engine",
+      "Dynamic Round Allocation",
+      "Responsive UI"
     ],
-    screenshot: SS_rendezvous,
-    image: rendezvous,
-    githubLink: "https://github.com/Abdoubel26/appointment-tracker",
-    previewLink: "https://rendezvous-trackr.vercel.app/"
+    screenshot: SS_trustfall,
+    image: trustfall,        
+    githubLink: "https://github.com/Abdoubel26/trustfall", 
+    previewLink: "https://trustfall-game.vercel.app/"            
   },
   {
     id: 4,
@@ -257,27 +261,28 @@ export const projects: ProjectType[] = [
     downloadLink: "/mindful-scroll.zip" 
 
   },
-  {
+   {
     id: 8,
-    title: "QuickChat",
-    description: "A first full-stack chat app that taught me the foundations of real-time web development.",
-    longDescription: "QuickChat is a real-time messaging application focused on speed, reliability, and user experience. The platform enables authenticated users to communicate instantly through persistent WebSocket connections while maintaining secure account management. The project demonstrates the implementation of real-time communication systems and scalable chat architecture. This was my very first MERN stack application. While the UI is simple, building this taught me the fundamentals of state management, Express routing, and password hashing. If I were to rebuild this today, I would use Tailwind CSS component files, implement React Query for server state, and handle WebSockets via Redis for scalability.",
+    title: "Rendezvous Trackr",
+    description: "A full-stack Next.js platform for individuals and small businesses to streamline appointment scheduling and meeting management.",
+    longDescription: "Rendezvous Trackr is a full-stack appointment management platform built for individuals and small businesses. The application streamlines scheduling by providing an intuitive dashboard for managing appointments, tracking statuses, and organizing customer interactions. The project focuses on creating a reliable and efficient booking workflow while maintaining secure authentication and persistent data management.",
     techStack: [
-      "MongoDB",
-      "ExpressJS",
-      "React",
-      "NodeJS",
+      "Nextjs",
+      "TypeScript",
+      "Tailwind CSS",
+      "Drizzle ORM",
       "JSON Web Token",
       "Bcrypt",
-      "Socket.io"
+      "PostgresSQL"
     ],
     features: [
-      "Authentication",
-      "Real-Time Messaging"
+      "Authentication", 
+      "Appointments Dashboard",
+      "Automatic Status Update"
     ],
-    screenshot: SS_quickChat,
-    image: QuickChat,
-    githubLink: "https://github.com/Abdoubel26/QuickChat",
-    previewLink: null
-  }
+    screenshot: SS_rendezvous,
+    image: rendezvous,
+    githubLink: "https://github.com/Abdoubel26/appointment-tracker",
+    previewLink: "https://rendezvous-trackr.vercel.app/"
+  },
 ];

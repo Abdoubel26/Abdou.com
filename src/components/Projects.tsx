@@ -76,7 +76,7 @@ function Projects() {
 
         </div>
         
-        <p className={`text-white mb-6 border p-2 border-white rounded-full lg:mb-0 cursor-pointer flex gap-1.5 ${showMore ? "hidden" : "flex"}`} onClick={() => setShowMore(prev => !prev)}> <ArrowDown />Show More</p>
+        <p className={`text-white mb-6 border select-none p-2 border-white rounded-full lg:mb-0 cursor-pointer flex gap-1.5 ${showMore ? "hidden" : "flex"}`} onClick={() => setShowMore(prev => !prev)}> <ArrowDown />Show More</p>
     </div>   );
 }
 
