@@ -8,6 +8,7 @@ import Contact from "./components/Contact"
 import { useRef } from "react"
 import { Routes, Route } from "react-router-dom";
 import ProjectPreview from "./components/ProjectPreview"
+import VideoPreview from "./components/VideoPreview"
 
 function App() {
 
@@ -27,7 +28,9 @@ function App() {
             <div ref={projectsRef}><Projects /></div>
             <div ref={skillsRef}><Skills /></div>
             <Reads />
+            <VideoPreview />
             <div ref={contactRef}><Contact /></div>
+            
           </>
       } 
       />
