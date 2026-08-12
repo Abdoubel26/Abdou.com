@@ -12,6 +12,17 @@ function ProjectPreview() {
       (pjt) => pjt.id.toString() === id
     );
 
+
+    useEffect(() => {
+    if (project?.title) {
+      document.title = `Abdou Belounis | ${project.title}`;
+    }
+
+    return () => {
+      document.title = "Abdou Belounis";
+    };
+    }, [project]);
+
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
@@ -23,6 +34,7 @@ function ProjectPreview() {
         </div>
       );
     }
+
 
     const filteredProjects = projects.filter((p) => p.id !== project.id);
 
