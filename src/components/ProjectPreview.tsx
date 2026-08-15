@@ -1,6 +1,5 @@
 import { Link, useParams } from "react-router-dom";
 import { projects, type ProjectType } from "../constants";
-// 🟢 Imported Download icon
 import { ArrowLeft, ExternalLink, Download, Globe, Puzzle, Settings } from "lucide-react"; 
 import { FaGithub } from "react-icons/fa";
 import { useEffect } from "react";

@@ -69,7 +69,7 @@ function Me() {
                  <h1 className='lg:text-4xl outfit'>About Me</h1>
             </div>
            
-            <p className=' lg:w-60 md:w-60 lg:pt-3 lg:text-lg text-xs poppins'>I am passionate about web development and creating technologies that improve the lives of others</p>
+            <p className=' lg:w-120 md:w-60 lg:pt-3 lg:text-lg text-xs poppins'>I’m a web developer focused on building practical technologies that make people’s lives better. Whether it’s tools that help with focus and productivity or applications that solve everyday problems, I aim to create software that actually matters.</p>
         </div>
     </div>
     </div>
